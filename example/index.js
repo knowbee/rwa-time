@@ -18,7 +18,8 @@ const {
   getHourMinute,
   getTime,
   getFullHourMinute,
-  getFullTime
+  getFullTime,
+  getDateTime
 } = require("../lib");
 
 console.log(`\ngetDay() =>`, getDay());
@@ -41,3 +42,4 @@ console.log(`\ngetHourMinute() =>`, getHourMinute());
 console.log(`\ngetTime() =>`, getTime());
 console.log(`\ngetFullHourMinute() =>`, getFullHourMinute());
 console.log(`\ngetFullTime() =>`, getFullTime());
+console.log(`\ngetDateTime() =>`, getDateTime());
