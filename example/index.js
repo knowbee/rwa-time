@@ -26,7 +26,8 @@ const {
   getCountry,
   getTimezone,
   getZipcode,
-  getShortCountry
+  getShortCountry,
+  getFullShortCountryDate
 } = require("../lib");
 
 (async () => {
@@ -58,4 +59,8 @@ const {
   console.log(`\ngetTimezone() =>`, await getTimezone());
   console.log(`\ngetZipcode() =>`, await getZipcode());
   console.log(`\ngetShortCountry() =>`, await getShortCountry());
+  console.log(
+    `\ngetFullShortCountryDate() =>`,
+    await getFullShortCountryDate()
+  );
 })();
