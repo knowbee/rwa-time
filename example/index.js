@@ -20,8 +20,9 @@ const {
   getFullTime,
   getDateTime,
   getFullDateTime,
-  getCurrentCity,
-  getFullCityDate
+  getCity,
+  getFullCityDate,
+  getRegion
 } = require("../lib");
 
 (async () => {
@@ -46,6 +47,7 @@ const {
   console.log(`\ngetFullTime() =>`, getFullTime());
   console.log(`\ngetDateTime() =>`, getDateTime());
   console.log(`\ngetFullDateTime() =>`, getFullDateTime());
-  console.log(`\ngetCurrentCity() =>`, await getCurrentCity());
+  console.log(`\ngetCity() =>`, await getCity());
   console.log(`\ngetFullCityDate() =>`, await getFullCityDate());
+  console.log(`\ngetRegion() =>`, await getRegion());
 })();
