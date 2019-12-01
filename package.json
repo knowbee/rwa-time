@@ -1,0 +1,8 @@
+{
+  "name": "rwa-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/knowbee/rwa-time.git",
+  "author": "Googler <knowbeeinc@gmail.com>",
+  "license": "MIT"
+}
