@@ -1,6 +1,8 @@
 # rwa-time
 
 [![Build Status](https://travis-ci.org/knowbee/rwa-time.svg?branch=master)](https://travis-ci.org/knowbee/rwa-time)
+[![npm](https://img.shields.io/npm/dt/rwa-time.svg)](https://www.npmjs.com/package/rwa-time)
+[![Dependency Status](https://david-dm.org/knowbee/rwa-time.svg)](https://david-dm.org/knowbee/rwa-time)
 
 [![NPM](https://nodei.co/npm/rwa-time.png)](https://nodei.co/npm/rwa-time/)
 
