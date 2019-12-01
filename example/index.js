@@ -22,7 +22,10 @@ const {
   getFullDateTime,
   getCity,
   getFullCityDate,
-  getRegion
+  getRegion,
+  getCountry,
+  getTimezone,
+  getZipcode
 } = require("../lib");
 
 (async () => {
@@ -50,4 +53,7 @@ const {
   console.log(`\ngetCity() =>`, await getCity());
   console.log(`\ngetFullCityDate() =>`, await getFullCityDate());
   console.log(`\ngetRegion() =>`, await getRegion());
+  console.log(`\ngetCountry() =>`, await getCountry());
+  console.log(`\ngetTimezone() =>`, await getTimezone());
+  console.log(`\ngetZipcode() =>`, await getZipcode());
 })();
