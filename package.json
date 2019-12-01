@@ -2,7 +2,26 @@
   "name": "rwa-time",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "description": "Get current date or format other dates to Kinyarwanda (rw).",
   "repository": "https://github.com/knowbee/rwa-time.git",
-  "author": "Googler <knowbeeinc@gmail.com>",
-  "license": "MIT"
+  "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "my-module": "bin/index.js"
+  },
+  "scripts": {
+    "all": "node ./example/index.js"
+  },
+  "keywords": [
+    "rwanda",
+    "date",
+    "current-date",
+    "time",
+    "current-time",
+    "locale",
+    "current-locale",
+    "format",
+    "rw",
+    "utility"
+  ]
 }

@@ -1,66 +1,43 @@
-const {
-  getDay,
-  getMonth,
-  getMonthNumber,
-  getYear,
-  getWeekdayNumber,
-  getFullDate,
-  getDate,
-  getFullWeekdayDate,
-  getMonthYear,
-  getMonthNumberYear,
-  getHour,
-  getFullMinute,
-  getMinute,
-  getFullSecond,
-  getSecond,
-  getHourMinute,
-  getTime,
-  getFullHourMinute,
-  getFullTime,
-  getDateTime,
-  getFullDateTime,
-  getCity,
-  getFullCityDate,
-  getRegion,
-  getCountry,
-  getTimezone,
-  getZipcode,
-  getShortCountry,
-  getFullShortCountryDate
-} = require("../lib");
-
+const RwaTime = require("../lib");
+const date = new RwaTime();
 (async () => {
-  console.log(`\ngetDay() =>`, getDay());
-  console.log(`\ngetMonth() =>`, getMonth());
-  console.log(`\ngetMonthNumber() =>`, getMonthNumber());
-  console.log(`\ngetYear() =>`, getYear());
-  console.log(`\ngetWeekdayNumber() =>`, getWeekdayNumber());
-  console.log(`\ngetDate() =>`, getDate());
-  console.log(`\ngetFullDate() =>`, getFullDate());
-  console.log(`\ngetFullWeekdayDate() =>`, getFullWeekdayDate());
-  console.log(`\ngetMonthYear() =>`, getMonthYear());
-  console.log(`\ngetMonthNumberYear() =>`, getMonthNumberYear());
-  console.log(`\ngetHour() =>`, getHour());
-  console.log(`\ngetFullMinute() =>`, getFullMinute());
-  console.log(`\ngetMinute() =>`, getMinute());
-  console.log(`\ngetFullSecond() =>`, getFullSecond());
-  console.log(`\ngetSecond() =>`, getSecond());
-  console.log(`\ngetHourMinute() =>`, getHourMinute());
-  console.log(`\ngetTime() =>`, getTime());
-  console.log(`\ngetFullHourMinute() =>`, getFullHourMinute());
-  console.log(`\ngetFullTime() =>`, getFullTime());
-  console.log(`\ngetDateTime() =>`, getDateTime());
-  console.log(`\ngetFullDateTime() =>`, getFullDateTime());
-  console.log(`\ngetCity() =>`, await getCity());
-  console.log(`\ngetFullCityDate() =>`, await getFullCityDate());
-  console.log(`\ngetRegion() =>`, await getRegion());
-  console.log(`\ngetCountry() =>`, await getCountry());
-  console.log(`\ngetTimezone() =>`, await getTimezone());
-  console.log(`\ngetZipcode() =>`, await getZipcode());
-  console.log(`\ngetShortCountry() =>`, await getShortCountry());
+  console.log(`\ngetDay() =>`, date.getDay("24HJERH87LK4"));
+  console.log(`\ngetMonth() =>`, date.getMonth());
+  console.log(
+    `\ngetMonthNumber() =>`,
+    date.getMonthNumber("05 October 2011 14:48 UTC")
+  );
+  console.log(`\ngetYear() =>`, date.getYear());
+  console.log(`\ngetWeekdayNumber() =>`, date.getWeekdayNumber());
+  console.log(
+    `\ngetWeekday() =>`,
+    date.getWeekday("05 October 2011 14:48 UTC")
+  );
+  console.log(`\ngetDate() =>`, date.getDate());
+  console.log(`\ngetFullDate() =>`, date.getFullDate());
+  console.log(`\ngetFullWeekdayDate() =>`, date.getFullWeekdayDate());
+  console.log(`\ngetMonthYear() =>`, date.getMonthYear());
+  console.log(`\ngetMonthNumberYear() =>`, date.getMonthNumberYear());
+  console.log(`\ngetHour() =>`, date.getHour());
+  console.log(`\ngetFullMinute() =>`, date.getFullMinute());
+  console.log(`\ngetMinute() =>`, date.getMinute());
+  console.log(`\ngetFullSecond() =>`, date.getFullSecond());
+  console.log(`\ngetSecond() =>`, date.getSecond());
+  console.log(`\ngetHourMinute() =>`, date.getHourMinute());
+  console.log(
+    `\ngetTime() =>`,
+    date.getTime("Wed Oct 05 2011 16:48:00 GMT+0200 (CEST)")
+  );
+  console.log(`\ngetDateTime() =>`, date.getDateTime("07/24/2015"));
+  console.log(`\ngetCity() =>`, await date.getCity());
+  console.log(`\ngetFullCityDate() =>`, await date.getFullCityDate());
+  console.log(`\ngetRegion() =>`, await date.getRegion());
+  console.log(`\ngetCountry() =>`, await date.getCountry());
+  console.log(`\ngetTimezone() =>`, await date.getTimezone());
+  console.log(`\ngetZipcode() =>`, await date.getZipcode());
+  console.log(`\ngetShortCountry() =>`, await date.getShortCountry());
   console.log(
     `\ngetFullShortCountryDate() =>`,
-    await getFullShortCountryDate()
+    await date.getFullShortCountryDate()
   );
 })();
