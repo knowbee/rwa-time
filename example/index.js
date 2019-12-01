@@ -6,7 +6,8 @@ const {
   getWeekdayNumber,
   getFullDate,
   getDate,
-  getFullCityDate
+  getFullCityDate,
+  getFullWeekdayDate
 } = require("../lib");
 console.log(`\ngetDay() =>`, getDay());
 console.log(`\ngetMonth() =>`, getMonth());
@@ -16,3 +17,4 @@ console.log(`\ngetWeekdayNumber() =>`, getWeekdayNumber());
 console.log(`\ngetDate() =>`, getDate());
 console.log(`\ngetFullDate() =>`, getFullDate());
 console.log(`\ngetFullCityDate() =>`, getFullCityDate("Kigali"));
+console.log(`\ngetFullWeekdayDate() =>`, getFullWeekdayDate());
