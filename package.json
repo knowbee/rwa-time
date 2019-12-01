@@ -1,6 +1,6 @@
 {
   "name": "rwa-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "description": "Get current date or format other dates to Kinyarwanda (rw).",
   "repository": "https://github.com/knowbee/rwa-time.git",
