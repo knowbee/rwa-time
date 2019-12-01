@@ -1,5 +1,9 @@
 # rwa-time
 
+[![Build Status](https://travis-ci.org/knowbee/rwa-time.svg?branch=master)](https://travis-ci.org/knowbee/rwa-time)
+
+[![NPM](https://nodei.co/npm/rwa-time.png)](https://nodei.co/npm/rwa-time/)
+
 Get current date in Kinyarwanda (rw) or format other dates to Kinyarwanda (rw).
 
 **Table of content**
