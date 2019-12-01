@@ -12,8 +12,11 @@ const {
   getMonthNumberYear,
   getHour,
   getFullMinute,
-  getMinute
+  getMinute,
+  getFullSecond,
+  getSecond
 } = require("../lib");
+
 console.log(`\ngetDay() =>`, getDay());
 console.log(`\ngetMonth() =>`, getMonth());
 console.log(`\ngetMonthNumber() =>`, getMonthNumber());
@@ -28,3 +31,5 @@ console.log(`\ngetMonthNumberYear() =>`, getMonthNumberYear());
 console.log(`\ngetHour() =>`, getHour());
 console.log(`\ngetFullMinute() =>`, getFullMinute());
 console.log(`\ngetMinute() =>`, getMinute());
+console.log(`\ngetFullSecond() =>`, getFullSecond());
+console.log(`\ngetSecond() =>`, getSecond());
