@@ -10,7 +10,9 @@ const {
   getFullWeekdayDate,
   getMonthYear,
   getMonthNumberYear,
-  getHour
+  getHour,
+  getFullMinute,
+  getMinute
 } = require("../lib");
 console.log(`\ngetDay() =>`, getDay());
 console.log(`\ngetMonth() =>`, getMonth());
@@ -24,3 +26,5 @@ console.log(`\ngetFullWeekdayDate() =>`, getFullWeekdayDate());
 console.log(`\ngetMonthYear() =>`, getMonthYear());
 console.log(`\ngetMonthNumberYear() =>`, getMonthNumberYear());
 console.log(`\ngetHour() =>`, getHour());
+console.log(`\ngetFullMinute() =>`, getFullMinute());
+console.log(`\ngetMinute() =>`, getMinute());
