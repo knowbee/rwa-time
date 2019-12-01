@@ -14,7 +14,9 @@ const {
   getFullMinute,
   getMinute,
   getFullSecond,
-  getSecond
+  getSecond,
+  getHourMinute,
+  getTime
 } = require("../lib");
 
 console.log(`\ngetDay() =>`, getDay());
@@ -33,3 +35,6 @@ console.log(`\ngetFullMinute() =>`, getFullMinute());
 console.log(`\ngetMinute() =>`, getMinute());
 console.log(`\ngetFullSecond() =>`, getFullSecond());
 console.log(`\ngetSecond() =>`, getSecond());
+console.log(`\ngetHourMinute() =>`, getHourMinute());
+console.log(`\ngetTime() =>`, getTime());
+console.log(`\ngetTime() =>`, getTime((sep = " n'")));
