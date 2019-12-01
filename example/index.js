@@ -1,2 +1,4 @@
-const { getDay } = require("../lib");
-console.log(getDay());
+const { getDay, getMonth, getMonthNumber } = require("../lib");
+console.log(`\ngetDay() =>`, getDay());
+console.log(`\ngetMonth() =>`, getMonth());
+console.log(`\ngetMonthNumber() =>`, getMonthNumber());
